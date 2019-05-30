@@ -39,6 +39,16 @@ To build dapp for prod:
 
 Deploy the contents of the ./dapp folder
 
+## DAPP UI 
+![DAPP UI](images/dapp-client.png)
+
+## Assumptions of the DAPP for simplicity 
+1. Only one airline is registered when the contract is deployed and was funded
+2. 3 flights with hardcoded timestamp are registered and populated in the dropdown
+3. We use one passenger account. 
+4. The "Get insurance amount" and "Get credit balance" buttons will query the contract using the flight selected in "Submit to Oralces" section
+5. After "Withdraw credits" button is clicked, you can use "Get credit balance" button to check that the credit balance is 0.
+
 
 ## Resources
 
